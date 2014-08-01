@@ -1,8 +1,22 @@
+def welcome():
+    print ("Welcome!")
 
-years_old = input ("How old are you? ")
+#-------------------------------------------
 
-years_old = int(years_old)
+import random
 
-days_old = years_old * 356.242
+def roll():
+    number = random.randrange(1,21)
+    return number
 
-print ("You are {} days old".format(days_old))
+#-------------------------------------------
+
+#def ask_name():
+    #name = input("What is your name? ").strip().title()
+    #print("Hello {}.".format(name))
+    #answer = input("Would you like to play a game? ").strip().title()
+    #if answer == "yes":
+
+
+############################################
+welcome()
